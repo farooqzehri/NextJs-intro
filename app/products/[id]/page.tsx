@@ -1,6 +1,11 @@
 import React from 'react'
-
-const Nestedproduct = () => {
+interface SingleUserProps {
+    params: {
+         id: string
+    }
+}
+const Nestedproduct = async ({params}: SingleUserProps) => {
+    const {id} = params
   return (
     <div>Nestedproduct</div>
   )
