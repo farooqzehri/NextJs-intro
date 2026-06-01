@@ -1,6 +1,8 @@
-import React from 'react'
+import React, { useState } from 'react'
 
 function Users() {
+  const [email , setEmail] = useState('')
+  
   return (
 <>
 <h1>Hello World</h1>
