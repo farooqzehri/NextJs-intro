@@ -11,7 +11,7 @@ function Users() {
 <div>
   <button>Click me</button>
   <form>
-    <input type="Email" placeholder="Enter your email"/>
+    <input type="Email" placeholder="Enter your email" value={email}/>
     <input type="password" placeholder="Enter your password" value={password}/>
      <button type="submit">Submit</button>
   </form>
