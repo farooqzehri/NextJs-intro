@@ -7,7 +7,9 @@ function Users() {
 <h2>Users Telll me </h2>
 <div>
   <button>Click me</button>
-  <form></form>
+  <form>
+    <input type="Email" placeholder="Enter your email"/>
+  </form>
 </div>
 </>
   )
