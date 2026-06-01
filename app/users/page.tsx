@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 
 function Users() {
   const [email , setEmail] = useState('')
-  
+  const [password , setPassword] = useState('')
   return (
 <>
 <h1>Hello World</h1>
