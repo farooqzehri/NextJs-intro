@@ -3,6 +3,7 @@ import React, { useState } from 'react'
 function Users() {
   const [email , setEmail] = useState('')
   const [password , setPassword] = useState('')
+
   return (
 <>
 <h1>Hello World</h1>
@@ -11,7 +12,7 @@ function Users() {
   <button>Click me</button>
   <form>
     <input type="Email" placeholder="Enter your email"/>
-    <input type="password" placeholder="Enter your password"/>
+    <input type="password" placeholder="Enter your password" value={password}/>
      <button type="submit">Submit</button>
   </form>
 </div>
