@@ -12,6 +12,7 @@ function Navbar() {
     <Link href="/products">Products</Link>
     <Link href="/products/webdev">Webdev</Link>
     <Link href="/users">Users</Link>
+    <Link href="/todo">Todo</Link>
 
     </div>
     </>
