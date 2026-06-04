@@ -1,4 +1,6 @@
-import React, { useState } from 'react'
+"use client"
+
+import  { useState } from 'react'
 
 function Users() {
   const [email , setEmail] = useState('')
@@ -14,8 +16,7 @@ function Users() {
 <h1>Hello World</h1>
 <h2>Users Telll me </h2>
 <div>
-  <button onClick={callme}>Click me</button>
-  <form>
+  <form onSubmit={callme}>
     <input type="Email" placeholder="Enter your email" value={email} onChange={(e) => setEmail(e.target.value)}/>
     <input type="password" placeholder="Enter your password" value={password} onChange={(e) => setPassword(e.target.value)  }/>
      <button type="submit">Submit</button>
