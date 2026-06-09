@@ -7,7 +7,7 @@ function Services() {
         <h3>We offer a wide range of services to meet your needs.</h3>
         <h3>Here are some of our key services:</h3>
         <ul>
-            <li></li>
+            <li>BreakFast</li>
         </ul>
     </div>
   )
