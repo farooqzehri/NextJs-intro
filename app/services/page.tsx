@@ -8,6 +8,7 @@ function Services() {
         <h3>Here are some of our key services:</h3>
         <ul>
             <li>BreakFast</li>
+            <li>Lunch</li>
         </ul>
     </div>
   )
