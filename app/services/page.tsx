@@ -9,6 +9,7 @@ function Services() {
         <ul>
             <li>BreakFast</li>
             <li>Lunch</li>
+            <li>dinner</li>
         </ul>
     </div>
   )
