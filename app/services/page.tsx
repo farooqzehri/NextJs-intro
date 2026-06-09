@@ -1,9 +1,11 @@
 import React from 'react'
 
-function page() {
+function Services() {
   return (
-    <div>page</div>
+    <div>
+        <h1></h1>
+    </div>
   )
 }
 
-export default page
+export default Services
